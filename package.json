@@ -1,7 +1,7 @@
 {
-  "name": "node-javascript-ecommerce-Video-09-Install-Babel-For-ES6-Syntax",
+  "name": "JShop",
   "version": "1.0.0",
-  "description": "JS AMAZONA",
+  "description": "JS",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
