@@ -7,7 +7,7 @@ const routes = {
   '/': HomeScreen,
   '/product/:id': ProductScreen,
   '/cart/:id':CartScreen ,
-  'cart':CartScreen,
+  '/cart':CartScreen,
 };
 const router = async () => {
   const request = parseRequestUrl();
