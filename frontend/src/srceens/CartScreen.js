@@ -22,7 +22,7 @@ const addToCart = (item, forceUpdate = false) => {
   };
   
   const removeFromCart = (id) => {
-      setCartItems(getCartItems().filter((x)=>x.product ==id));
+      setCartItems(getCartItems().filter((x)=>x.product !==id));
       if(id===parseRequestUrl().id){
           document.location.hash = '/cart';
       }else{
